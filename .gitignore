@@ -1,0 +1,36 @@
+# --- Salidas de simulación ns-3 (regenerables) ---
+**/RxPacketTrace*.txt
+**/Nr*Stats*.txt
+**/NrDl*.txt
+**/NrUl*.txt
+**/Dl*.txt
+**/Ul*.txt
+**/*PhyCtrlMsgs*.txt
+**/*DciTrace*.txt
+**/Rxed*.txt
+**/Txed*.txt
+**/*Sinr*.txt
+**/*Pathloss*.txt
+
+# --- Trazas de movilidad FCD (grandes, regenerables) ---
+**/fcd*.xml
+
+# --- Auxiliares de LaTeX (se conserva el .pdf y el .tex) ---
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+c1.log
+c2.log
+c3.log
+cb.log
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Entorno virtual / temporales ---
+sumo-venv/
+slides/sumo_caps/cap.log

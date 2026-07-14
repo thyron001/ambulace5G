@@ -1,0 +1,9 @@
+escenario,seed,latencia_s,gps_s,dist_m,viaje_s,detenida_s,paradas,amb_teleports,reroutes,vereda_veh
+demo_gui,42,0.02,1.0,300.0,205.7,0.1,1,0,2,14
+smoke_estacionados,42,0.02,1.0,300.0,204.5,0.0,0,0,1,11
+smoke_acc_auto,3,0.02,1.0,300.0,210.1,0.0,0,0,2,6
+demo_gui,42,0.02,1.0,300.0,204.5,0.0,0,0,1,11
+smoke_sin_parqueados,42,0.02,1.0,300.0,181.0,0.0,0,0,1,8
+fase1,3,0.02,1.0,300.0,216.0,3.7,2,0,2,8
+demo_gui,42,0.02,1.0,300.0,182.8,0.0,0,0,1,8
+demo_gui,12,0.02,1.0,300.0,210.0,0.0,0,0,2,9

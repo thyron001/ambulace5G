@@ -1,0 +1,12 @@
+<configuration>
+  <input>
+    <net-file value="../sumo/cuenca.net.xml"/>
+    <route-files value="../sumo/rush.trips.xml,../sumo/locales.trips.xml,ambulancia_1celda.rou.xml"/>
+  </input>
+  <time><begin value="0"/><end value="200"/><step-length value="0.1"/></time>
+  <processing>
+    <ignore-route-errors value="true"/><time-to-teleport value="120"/>
+    <lateral-resolution value="0.8"/><device.bluelight.reactiondist value="60"/>
+  </processing>
+  <report><no-step-log value="true"/></report>
+</configuration>

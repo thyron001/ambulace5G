@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # ---- Configuración ----
 XML_FILE = "resultados-ambulancia.xml"
 PUERTOS = {5000: "Signos Vitales", 5001: "Video", 5002: "GPS"}
-SIM_DURATION = 28.5  # simTime - 1.5 s (tiempo activo de las apps)
+SIM_DURATION = 223.5  # simTime - 1.5 s (tiempo activo de las apps)
 
 def to_ms(valor):
     """Convierte '+1.23e+09ns' de FlowMonitor a milisegundos."""
@@ -49,7 +49,7 @@ metricas = [
 
 nombres = list(resultados.keys())
 fig, axes = plt.subplots(2, 2, figsize=(12, 8))
-fig.suptitle("Simulación 5G - Ambulancia Inteligente (NS-3 / 5G-LENA)", fontsize=14)
+fig.suptitle("Simulación 5G - Ambulancia Inteligente (NS-3 / 5G-LENA + SUMO Cuenca)", fontsize=14)
 
 for ax, (clave, titulo, color) in zip(axes.flat, metricas):
     valores = [resultados[n][clave] for n in nombres]

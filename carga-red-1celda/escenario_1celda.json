@@ -1,0 +1,15 @@
+{
+ "gnb_idx": 3,
+ "gnb_pos": [
+  3326.6,
+  1931.1
+ ],
+ "hospital": [
+  3631.0,
+  2042.0
+ ],
+ "t_salida": 20.1,
+ "t_llegada": 166.5,
+ "accidente_edge": "400264794",
+ "origen_edge": "84861608"
+}

@@ -1,0 +1,9 @@
+<routes>
+    <vType id="ambulancia" vClass="emergency" color="1,0,0" guiShape="emergency"
+           speedFactor="1.5" accel="3.5" decel="6.0" maxSpeed="33"
+           width="2.1" minGapLat="0.25" lcSublane="2.0" lcPushy="1.0" lcAssertive="2.0"/>
+    <route id="r" edges="84861608 48547989#0 84860607#1 946936882 400264794 84865274#0 84865274#1 84865274#2 400264795 208782596#2 305497113#0 552667596#0"/>
+    <vehicle id="amb" type="ambulancia" route="r" depart="20.0" departSpeed="max">
+        <param key="has.bluelight.device" value="true"/>
+    </vehicle>
+</routes>

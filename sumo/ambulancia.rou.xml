@@ -1,0 +1,13 @@
+<routes>
+    <!-- Ambulancia: vClass emergency => puede usar carriles bus, exceso de
+         velocidad permitido (speedFactor 1.5) y luces azules (bluelight) -->
+    <vType id="ambulancia" vClass="emergency" color="1,0,0" guiShape="emergency"
+           speedFactor="1.5" accel="3.5" decel="6.0" maxSpeed="33"
+           width="2.1" minGapLat="0.25" lcSublane="2.0" lcPushy="1.0" lcAssertive="2.0"/>
+
+    <route id="ruta_hospital" edges="337277951#0 1053072563 337277977#0 337277977#1 49222366#3 49222366#4 49222366#6 49222366#8 49222366#9 552643689#0 552643689#1 400014568#0 400014568#1 334968591#0 334968591#1 334968591#2 893257053 559164160 40972457#0 40972457#1 40972457#2 40972457#3 402904478#0 402904478#3 400328791#0 552667594#0 42453876#3 42453876#4 42453876#5 65107381 65107389 305497107 40972452#6 40972452#7 40972452#1 40972452#2 305497113#0 552667596#0"/>
+    <vehicle id="amb" type="ambulancia" route="ruta_hospital" depart="100"
+             departSpeed="max">
+        <param key="has.bluelight.device" value="true"/>
+    </vehicle>
+</routes>

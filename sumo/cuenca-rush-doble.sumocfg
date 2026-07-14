@@ -1,0 +1,24 @@
+<configuration>
+    <input>
+        <net-file value="cuenca.net.xml"/>
+        <route-files value="rush.trips.xml,locales.trips.xml,corridor.flows.xml,corridor2.flows.xml,ambulancia.rou.xml"/>
+        <additional-files value="cuenca.poly.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="900"/>
+        <step-length value="0.1"/>
+    </time>
+    <processing>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="300"/>
+        <!-- Modelo de sub-carriles: necesario para que los vehículos se
+             aparten y formen el corredor de emergencia (bluelight) -->
+        <lateral-resolution value="0.8"/>
+        <device.bluelight.reactiondist value="60"/>
+    </processing>
+    <report>
+        <no-step-log value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+</configuration>
